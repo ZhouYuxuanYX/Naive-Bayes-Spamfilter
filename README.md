@@ -20,3 +20,12 @@ Options:
   -m <path>, --modelpath   #Path to the model. In training mode this is where
                            the model will be written to, in classification
                            mode this is where the model will be read from.
+
+Assumptions:
+
+• Bag of words Model:
+assume position of words doesn’t matter
+
+• Conditional Independence:
+Assume the feature probabilities are
+independent given the class c
