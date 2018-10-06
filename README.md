@@ -1,18 +1,16 @@
 Naive Bayes spamfilter implementation in python 3.6 and its command line interface for Linux system
 
-Main files:
+## Main Files:
+*spamfilter.py
+*NBclassifier.py
 
-spamfilter.py
-
-NBclassifier.py
-
-Usage:
+**Usage**:
 
   spamfilter train    -m <path> -c <path>
   
   spamfilter classify -m <path> <path>
 
-Options:
+**Options**:
 
   -c <path>, --corpuspath  #Path to the corpus that should be used to train the
                            spamfilter. The path should contain two
@@ -23,7 +21,7 @@ Options:
                            the model will be written to, in classification
                            mode this is where the model will be read from.
 
-Assumptions:
+## Assumptions:
 
 • Bag of words Model:
 assume position of words doesn’t matter
@@ -31,3 +29,4 @@ assume position of words doesn’t matter
 • Conditional Independence:
 Assume the feature probabilities are
 independent given the class c
+
