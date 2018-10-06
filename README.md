@@ -3,11 +3,13 @@ Naive Bayes spamfilter implementation in python 3.6 and its command line interfa
 Main files:
 
 spamfilter.py
+
 NBclassifier.py
 
 Usage:
 
   spamfilter train    -m <path> -c <path>
+  
   spamfilter classify -m <path> <path>
 
 Options:
