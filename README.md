@@ -1,8 +1,8 @@
 Naive Bayes spamfilter implementation in python 3.6 and its command line interface for Linux system
 
 ## Main Files:
-*spamfilter.py
-*NBclassifier.py
+* spamfilter.py
+* NBclassifier.py
 
 **Usage**:
 
